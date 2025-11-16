@@ -11,8 +11,8 @@ var config = {
 
     skipPreloaderAnimation: false,
 
-    goToHongKong: function() {
-        goTo(22.28552,114.15769);
+    goToNepal: function() {
+        goTo(27.694993, 84.416658);
     }
 };
 
@@ -77,7 +77,7 @@ function init(ref) {
     gui.add(config, 'isHaloVisible');
     gui.add(config, 'isPoleVisible');
     gui.add(config, 'autoSpin');
-    gui.add(config, 'goToHongKong');
+    gui.add(config, 'goToNepal');
     gui.add(config, 'zoom', 0, 1).listen();
 
     stats = new Stats();
